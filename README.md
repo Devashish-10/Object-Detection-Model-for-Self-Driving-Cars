@@ -106,11 +106,10 @@ pip install -r requirements.txt
 ```
 object-detection/
 │
-├── predict.py           # Main script for object detection
+├── use_model.py        # Python script to use our traind model
 ├── data.yaml           # Class configurations
 ├── models/             # Directory for model files
 │   └── yolov5m.pt     # Pre-trained YOLO model
-├── utils/             # Utility functions
 ├── data/              # Data directory
 │   ├── images/        # Input images
 │   └── output/        # Detection results
@@ -121,7 +120,7 @@ object-detection/
 
 ### Basic Usage
 
-The main script `predict.py` provides several functions for object detection:
+The main script `use_model.py` provides several functions for object detection:
 
 ```python
 from predict import load_model, predict_and_display
