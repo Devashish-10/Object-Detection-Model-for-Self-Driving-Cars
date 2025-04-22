@@ -1,0 +1,13 @@
+train: C:\Users\Devashish Uniyal\OneDrive\Desktop\Object Detection\export\images
+val: C:\Users\Devashish Uniyal\OneDrive\Desktop\Object Detection\export\images
+test: C:\Users\Devashish Uniyal\OneDrive\Desktop\Object Detection\export\images
+
+nc: 11
+names: ['biker', 'car', 'pedestrian', 'trafficLight', 'trafficLight-Green', 'trafficLight-GreenLeft', 'trafficLight-Red', 'trafficLight-RedLeft', 'trafficLight-Yellow', 'trafficLight-YellowLeft', 'truck']
+
+roboflow:
+  workspace: roboflow-gw7yv
+  project: self-driving-car
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/roboflow-gw7yv/self-driving-car/dataset/3
