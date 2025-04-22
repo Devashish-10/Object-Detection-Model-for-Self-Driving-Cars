@@ -1,4 +1,4 @@
-# Object Detection with YOLO
+# Object Detection for Self Driving Vehicles with YOLO
 
 This project implements object detection using the YOLO (You Only Look Once) model, specifically designed for detecting objects in images.
 
