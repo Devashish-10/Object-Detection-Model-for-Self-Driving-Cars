@@ -106,7 +106,6 @@ pip install -r requirements.txt
 ```
 object-detection/
 │
-├── use_model.py        # Python script to use our traind model
 ├── data.yaml           # Class configurations
 ├── models/             # Directory for model files
 │   └── yolov5m.pt     # Pre-trained YOLO model
